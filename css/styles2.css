@@ -1,0 +1,148 @@
+body {
+  background: #fbfbfb;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.phonePic {
+  flex: 40%;
+  margin: 5px;
+}
+
+.phonePic img{
+  width: 60%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.secondColumn {
+  flex: 40%;
+  height: 100%;
+}
+
+.signInBox {
+  background: white;
+  width: 300px;
+  margin: 20px 5px 5px 5px;
+  padding: 15px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.signInBox input{
+  box-shadow: none;
+}
+
+.title img{
+  /* position: relative; */
+  width: 60%;
+  margin: 5px;
+}
+
+.subTitle {
+  /* position: relative; */
+  color: #999;
+  font-size: 17px;
+  margin: auto 5px;
+
+}
+
+.blueButton {
+  /* position: relative; */
+  height: 25px;
+  width: auto;
+  align-items: flex-end;
+  background-color: #3897f0;
+  color: white;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 0px;
+  margin: auto;
+}
+
+.orSeparator {
+  color: #999;
+}
+
+.customHR {
+  letter-spacing: -1px;
+
+}
+
+.inputBoxes {
+}
+
+.inputBoxes input{
+  background-color: #fbfbfb;
+  border: 1px solid #999;
+  margin: 7px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90%;
+  padding: 8px;
+}
+
+input {
+outline: none;
+box-shadow:none;
+}
+
+.termsAndCon {
+  color: #999;
+  font-size: 17px;
+}
+
+.termsAndCon a{
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.AppButtons {
+  /* position: relative; */
+  text-align: center;
+  width: 300px;
+  margin: 50px;
+  padding: 15px;
+}
+
+
+
+
+.footerMenu {
+
+}
+
+
+.footerMenu ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerMenu li{
+  margin: 0px 5px;
+}
+
+.footerMenu li a{
+  color: #003569;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: #999;
+  text-transform: uppercase;
+  display: relative;
+  right: 0;
+}
